@@ -111,8 +111,8 @@
             android:background="#070707" />
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="107dp"
+            android:layout_width="wrap_content"
+            android:layout_height="227dp"
             android:layout_marginTop="10dp">
 
             <Button

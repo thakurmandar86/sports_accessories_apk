@@ -27,12 +27,14 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-
+    <string name="action_settings">Search</string>
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="owner_signup_text">Owner Signup !</string>
     <string name="owner_email">Email</string>
     <string name="owner_password3">Password</string>
+    <string name="dash_cart_header">Cart</string>
+    <string name="dashnotification">Notification</string>
+    <string name="dashsearch">Search</string>
 </resources>
