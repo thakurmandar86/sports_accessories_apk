@@ -20,7 +20,7 @@ public class ProductImagesAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         ImageView productImage = new ImageView(container.getContext());
-        productImage.setImageResource(productImage.get(position));
+        productImage.setImageResource(productImage.getAdjustViewBounds(position));
         container.addView(productImage,0);
         return productImage;
     }

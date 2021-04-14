@@ -49,6 +49,7 @@ public class dashboard extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+        //MenuItem item = NavigationView.getMenu().getItem(0, setChecked(true));
     }
 
     @Override
@@ -75,8 +76,11 @@ public class dashboard extends AppCompatActivity {
         }else if(id==R.id.nav_orders){
 
         }else if(id==R.id.nav_myaccount){
+           
+        }else  if(id==R.id.nav_signout){
 
         }
+
         DrawerLayout drawer=(DrawerLayout)findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return  true;
