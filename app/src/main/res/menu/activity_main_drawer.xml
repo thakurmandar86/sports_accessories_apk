@@ -24,7 +24,8 @@
     </group>
 
     <item android:title="Categories"
-        android:icon="@drawable/categories">
+        android:icon="@drawable/categories"
+        android:id="@+id/nav_category">
         <menu>
             <item
                 android:id="@+id/ball"
