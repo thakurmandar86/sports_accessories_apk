@@ -37,4 +37,10 @@
     <string name="dash_cart_header">Cart</string>
     <string name="dashnotification">Notification</string>
     <string name="dashsearch">Search</string>
+    <string name="title_activity_dashboard_navigation">Dashboard_navigation</string>
+    <string name="menu_home1">Home</string>
+    <string name="menu_categories">Gallery</string>
+    <string name="menu_brand">Slideshow</string>
+    <string name="menu_order">Slideshow</string>
+    <string name="menu_account">Slideshow</string>
 </resources>
